@@ -1,0 +1,55 @@
+/* это файл стилей*/
+        table
+        {
+           height: 10px;
+           width: 100%;
+           background-color: rgb(3, 18, 97);
+           color:black;
+           margin: 0 0 0 0;
+           padding: 0 0 0 0;
+        }
+        tbody
+        {
+           width: 100%;
+           margin: 0 0 0 0;
+           padding: 0 0 0 0;
+        }
+        tr
+        {
+           width: 100%;
+           margin: 0 0 0 0;
+           padding: 0 0 0 0;
+        }
+        td
+        {
+           width: 20%;
+        }
+        body
+        {
+            background-color: black;
+        }
+        a
+        {
+            color: red;
+            
+        }
+        button
+        {
+          Background-color: red;
+          width: 140px;
+          border-radius: 8px;
+          border-color:red;
+          border: 3px;
+          margin-left: 600px;
+          margin-top: -100px;
+        }
+        h1.purple
+        {
+            color: purple;
+            color: #e1b70f;
+        }
+        h2.blue
+        {
+            color: blue;
+            color: #ff0060;
+        }
