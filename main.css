@@ -23,6 +23,11 @@
         td
         {
            width: 20%;
+           text-align: center;
+        }
+        td:hover
+        {
+          background-color: black;
         }
         body
         {
@@ -37,11 +42,23 @@
         {
           Background-color: red;
           width: 140px;
-          border-radius: 8px;
+          border-radius: 10px;
           border-color:red;
           border: 3px;
-          margin-left: 600px;
-          margin-top: -100px;
+          position: absolute;
+          left: 935px;
+          top:405px;
+          height: 40px;
+        }
+        h2.red
+        {
+          color: red;
+          font-size: 28px;
+        }
+        h2.black
+        {
+          color:black;
+          font-size: 14px;
         }
         h3.purple
         {
@@ -53,21 +70,11 @@
             color: blue;
             color: #ff0060;
         }
-        h2.red
-        {
-          color: red;
-          font-size: 28px;
-        }
-        h2.black
-        {
-          color: black;
-          font-size: 14px;
-        }
         div.content
         {
-         width: 80%;
+          width: 100%;
         }
-         div.info
+        div.info
         {
           width: 33%;
           display: inline-block;
