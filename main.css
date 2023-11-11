@@ -53,6 +53,16 @@
             color: blue;
             color: #ff0060;
         }
+        h2.red
+        {
+          color: red;
+          font-size: 28px;
+        }
+        h2.black
+        {
+          color: black;
+          font-size: 14px;
+        }
         div.content
         {
          width: 80%;
