@@ -32,6 +32,7 @@
         body
         {
             background-color: black;
+            min-height: 600px;
         }
         a
         {
