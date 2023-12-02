@@ -84,6 +84,15 @@
           text-align: center;
           vertical-align: bottom;
         }
+        form
+        {
+          border: 10px solid green;
+          text-align: center;
+          margin-left: calc(38vw);
+          margin-right: calc(38vw);
+          background-color: green;
+          border-radius:25px;
+        }
         footer
         {
           margin-left: 10%;
