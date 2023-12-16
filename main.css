@@ -102,3 +102,23 @@
           display: flex;
           justify-content: space-between;
         }
+        #grid
+        {
+          min-height: 600px; 
+          display: grid;
+          grid-template-areas: 
+           'one one one three three'
+           'one one one four four'
+           'two two two four four'
+           'two two two five five';
+          grid-gap: 5px;
+        }
+        #grid1 {grid-area:one}
+        #grid2 {grid-area:two}
+        #grid3 {grid-area:three}
+        #grid4 {grid-area:four}
+        #grid5 {grid-area:five}
+        input:focus
+        {
+          background-color: red;
+        }

@@ -17,8 +17,8 @@
                      <a class="header" href=""><img style="height: 50px"src="img/cart.png" alt=""></a>
     </header>
 
-    <form action="">
-        <select name="" id="" style="width: 160px;" multiple>
+    <form action="mailto:moreafjgusar@gmail.com" method="POST" enctype="text/plain">
+        <select name="country" id="" style="width: 160px;" multiple>
             <option value="">Армения</option>
             <option value="">Белорусь</option>
             <option value="">Великобритания</option>
@@ -26,22 +26,22 @@
             <option value="">Италия</option>
         </select>
         <p>
-            <input type="text" placeholder="Введите логин">
+            <input type="text" name="name" placeholder="Введите логин">
         </p>
         <p>
-            <input type="email"placeholder="Введите почту">
+            <input type="email" name="e-mail" placeholder="Введите почту">
         </p>
         <p>
-            <input type="password"placeholder="Введите пароль">
+            <input type="password" name="parol" placeholder="Введите пароль">
         </p>
         <p>
-            <input type="password"placeholder="Подтвердите пароль">
+            <input type="password" name="пароль" placeholder="Подтвердите пароль">
         </p>
         <p>
-            <input type="number" placeholder="Введите возраст" min="15" max="99">
+            <input type="number" name="number" placeholder="Введите возраст" min="15" max="99">
         </p>
         <p>
-            <input type="tel"placeholder="Введите телефон">
+            <input type="tel" name="tele" placeholder="Введите телефон">
         </p>
         <br>
        <label><input type="radio" name="var">Мужской</label>
@@ -63,7 +63,6 @@
         <p>
             <input type="reset" value="сброс" >
         </p>
-
     </form>
 
     <div style="min-height: 600px;"></div>
