@@ -33,6 +33,7 @@
         {
             background-color: black;
             min-height: 600px;
+            overflow-x: hidden;
         }
         a
         {
@@ -48,8 +49,12 @@
           border: 3px;
           position: absolute;
           left: 935px;
-          top:405px;
+          top:385px;
           height: 40px;
+        }
+        button:hover
+        {
+          background-color: yellow;
         }
         h2.red
         {
@@ -107,18 +112,113 @@
           min-height: 600px; 
           display: grid;
           grid-template-areas: 
-           'one one one three three'
-           'one one one four four'
-           'two two two four four'
-           'two two two five five';
+           'one two'
+           'one three'
+           'one three'
+           'four three';
           grid-gap: 5px;
         }
         #grid1 {grid-area:one}
         #grid2 {grid-area:two}
         #grid3 {grid-area:three}
         #grid4 {grid-area:four}
-        #grid5 {grid-area:five}
+
         input:focus
         {
-          background-color: red;
+          background-color: yellow;
         }
+        input:checked+span
+        {
+           background-color: yellow;
+        }
+        /*@keyframes poster
+        {
+          0% {margin-left: -180px;margin-right: 0px;}
+          50% {margin-left: 0px;margin-right: -180px;opacity:0.2;}
+          100% {margin-left: -180px;margin-right: 0px;}
+        }
+        #poster
+        {
+          animation: poster 5s ease-in-out infinite;
+        }*/
+        @keyframes button
+        {
+          0%{transform: scale(0.9);}
+          100%{transform: scale(1.8);}
+        }
+        #button:hover
+        {
+          animation: button 1s ease normal;
+          animation-fill-mode: forwards;
+        }
+        #poster:hover
+        {
+           
+        }
+        .cut1
+        {
+          position: absolute;
+          z-index: 2;
+          top: 95px;
+          left: 308px;
+        }
+        .cut1:hover
+        {
+          transform: translate(5px,5px);
+        }
+        .cut2
+        {
+          position: absolute;
+          z-index: 2;
+          top: 95px;
+          left: 426px;
+        }
+        .cut2:hover
+        {
+          transform: translate(5px,5px);
+        }
+        .cut3
+        {
+          position: absolute;
+          z-index: 2;
+          top: 95px;
+          left: 530px;
+        }
+        .cut3:hover
+        {
+          transform: translate(5px,5px);
+        }
+        .cut4
+        {
+          position: absolute;
+          z-index: 2;
+          top: 95px;
+          left: 636px;
+        }
+        .cut4:hover
+        {
+          transform: translate(5px,5px);
+        }
+        .cut5
+        {
+          position: absolute;
+          z-index: 2;
+          top: 95px;
+          left: 750px;
+        }
+        .cut5:hover
+        {
+          transform: translate(5px,5px);
+        }
+        .cut6
+        {
+          position: absolute;
+          z-index: 2;
+          top: 95px;
+          left: 855px;
+        }
+        .cut6:hover
+        {
+          transform: translate(5px,5px);
+        }
+

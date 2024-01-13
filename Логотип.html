@@ -9,14 +9,17 @@
 </head>
 <body style="background-color: #1d1b8d;"> 
     <!--меню-->
-    <header>
-                     <a class="header" href="index.html"><img style="height: 50px"src="img/logo.png" alt=""></a>
-                     <a class="header" href="Логотип.html"><h2>Логотип</h2></a> 
-                     <a class="header" href="О нас.html"><h2>О нас</h2></a> 
-                     <a class="header" href="Обучение.html"><h2>Обучение</h2></a>
-                     <a class="header" href=""><img style="height: 50px"src="img/cart.png" alt=""></a>
-    </header>
-
+    <table>
+        <tbody>
+               <tr>
+                  <td><a href="index.html"><img style="height: 50px"src="img/logo.png" alt=""></a></td> 
+                  <td><a href="Логотип.html"><h2>Логотип</h2></a></td>  
+                  <td><a href="О нас.html"><h2>О нас</h2></a></td> 
+                  <td><a href="Обучение.html"><h2>Обучение</h2></a></td>
+                  <td><a href=""><img style="height: 50px"src="img/cart.png" alt=""></a></td>
+               </tr>
+        </tbody>
+ </table>
     <form action="mailto:moreafjgusar@gmail.com" method="POST" enctype="text/plain">
         <select name="country" id="" style="width: 160px;" multiple>
             <option value="">Армения</option>
@@ -51,9 +54,9 @@
             <textarea name="" id="" cols="30" rows="10" placeholder="Введиет комментарий"></textarea>
         </p>
         <label for="">
-            <input type="checkbox" checked>Я хочу получать рекламные предложения на свою почту
+            <input type="checkbox" checked><span>Я хочу получать рекламные предложения на свою почту</span>
             <br>
-            <input type="checkbox" checked>Я принимаю Пользовательское соглашение
+            <input type="checkbox" checked><span>Я принимаю Пользовательское соглашение</span>
         </label>
 
         <p>
