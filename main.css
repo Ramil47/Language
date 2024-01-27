@@ -233,3 +233,35 @@
          {
            left: 15px;
          }
+         @media (max-width:540px)
+         {
+          div.cut1{display: none;}
+          div.cut2{display: none;}
+          div.cut3{display: none;}
+          div.cut4{display: none;}
+          div.cut5{display: none;}
+          div.cut6{display: none;}
+          div.info
+          {
+              width: 99%;
+          }
+          button
+          {
+            left: 84px;
+            right: 68px;
+          }
+          table
+          {
+            height:inherit;
+          }
+          td
+          {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            border: 2px dotted grey;
+            border-radius:25px;
+            width:350px;
+            text-align:center
+          }
+          }
