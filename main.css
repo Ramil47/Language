@@ -265,3 +265,7 @@
             text-align:center
           }
           }
+          .blur
+          {
+             filter:invert(500);
+          }
